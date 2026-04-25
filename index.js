@@ -4,10 +4,10 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-const OPEN_HOUR = 9;
+const OPEN_HOUR = 830;
 const CLOSE_HOUR = 17;
 const TIMEZONE = 'America/New_York';
-const OPEN_DAYS = [1,2,3,4,5];
+const OPEN_DAYS = [1,2,3,4,5,6];
 
 const GREETING_BIN_URL   = 'https://api.telnyx.com/v2/media/Greeting_for_1800_number.xml';
 const AFTERHOURS_BIN_URL = 'https://api.telnyx.com/v2/media/AfterHours.xml';
