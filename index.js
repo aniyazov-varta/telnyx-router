@@ -7,8 +7,8 @@ const CLOSE_HOUR = 17;     // 5pm
 const TIMEZONE = 'America/New_York';
 const OPEN_DAYS = [1,2,3,4,5]; // Mon=1, Fri=5 (0=Sun, 6=Sat)
 
-const GREETING_BIN_URL   = https://api.telnyx.com/v2/media/Greeting_for_1800_number.xml;
-const AFTERHOURS_BIN_URL = https://api.telnyx.com/v2/media/AfterHours.xml;
+const GREETING_BIN_URL   = 'https://api.telnyx.com/v2/media/Greeting_for_1800_number.xml';
+const AFTERHOURS_BIN_URL = 'https://api.telnyx.com/v2/media/AfterHours.xml';
 // ---------------------
 
 function isBusinessHours() {
